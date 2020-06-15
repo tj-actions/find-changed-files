@@ -26,7 +26,7 @@ A github action to return a list of changed files using grep
 
 ## Inputs
 
-|   Input       |    type    |  required    |  default                    |  description               |
-|:-------------:|:-----------:|:-------------:|:-------------------------:|:--------------------------:|
-| token         |  `string`   |    `false`    | `${{ github.token }}`     | github action or PAT token |
-| files         |  `string`   |    `false`    |                           | Comma separated list of files to check for changes during workflow execution |
+|   Input       |    type     |  required      |  default                      |  description               |
+|:-------------:|:-----------:|:--------------:|:-----------------------------:|:--------------------------:|
+| token         |  `string`   |    `false`     | `${{ github.token }}`         | github action or PAT token |
+| files         |  `string`   |    `false`     |                               | Comma separated list of files to check for changes during workflow execution |
