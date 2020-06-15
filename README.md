@@ -6,11 +6,6 @@ A github action to return a list of changed files using grep
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
-        with:
-          node-version: 9.8.0
-      - name: Install
-        run: npm ci
       - name: Run Find changed files.
         id: changed_files
         uses: jackton1/find-changed-files@v1
