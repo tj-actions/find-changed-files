@@ -10,7 +10,7 @@ A github action to return a list of changed files using grep
         id: changed_files
         uses: jackton1/find-changed-files@v1
         with:
-          files: "test.png, new.txt"
+          files: "test.png, new.txt, test_directory"
       - name: Perform action when files change.
         if: steps.changed_files.outputs.files_changed == 'true'
         run: |
@@ -24,4 +24,4 @@ A github action to return a list of changed files using grep
 |   Input       |    type     |  required      |  default                      |  description               |
 |:-------------:|:-----------:|:--------------:|:-----------------------------:|:--------------------------:|
 | token         |  `string`   |    `false`     | `${{ github.token }}`         | github action or PAT token |
-| files         |  `string`   |    `false`     |                               | Comma separated list of file names to check for changes during workflow execution |
+| files         |  `string`   |    `false`     |                               | Comma separated list of file/directory names to check for changes during workflow execution |
