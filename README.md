@@ -8,7 +8,7 @@ A github action to return a list of changed files using grep
       - uses: actions/checkout@v2
       - name: Run Find changed files.
         id: changed_files
-        uses: jackton1/find-changed-files@v1
+        uses: jackton1/find-changed-files@v1.1
         with:
           files: "test.png, new.txt, test_directory"
       - name: Perform action when files change.
