@@ -6,6 +6,9 @@ A github action to return a list of changed files using grep
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      # .....................
+      # Make changes to files
+      # .....................
       - name: Run Find changed files.
         id: changed_files
         uses: jackton1/find-changed-files@v1.1
