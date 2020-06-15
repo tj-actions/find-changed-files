@@ -1,5 +1,5 @@
 name: Find Changed files
-description: Find file that have been modified while executing workflow.
+description: Find files that have been modified during workflow execution.
 author: jackton1
 inputs:
   token:
