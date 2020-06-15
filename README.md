@@ -1,8 +1,8 @@
 # find-changed-files
 A github action to return a list of changed files using grep
 
-```
-...: yaml
+```yaml
+...:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
