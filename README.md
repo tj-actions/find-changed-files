@@ -1,3 +1,5 @@
+This repo is no longer maintained moved to https://github.com/tj-actions/verify-changed-files
+
 # find-changed-files
 A github action to return a list of changed files using grep
 
